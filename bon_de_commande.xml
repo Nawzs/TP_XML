@@ -1,0 +1,30 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE CD SYSTEM "bon_de_commande.dtd">
+
+<Bondecommande>
+
+   <entreprise>
+        <nom>entreprise1</nom>
+        <adresse>45 rue du centre ville</adresse>
+        <numerodetelephone>06 35 47 26 89</numerodetelephone>
+        <numerodetelecopie>3665</numerodetelecopie>
+   </entreprise>
+
+   <entreprise>
+        <nom>entreprise2</nom>
+        <adresse>23 rue du berger</adresse>
+        <numerodetelephone>06 54 94 34 75</numerodetelephone>
+        <numerodetelecopie>6142</numerodetelecopie>
+   </entreprise>
+
+   <date>26/06/2014<date/>
+   <montanttotal>453$<montanttotal/>
+
+   <lignesdecommandes>
+        <referencedeproduit>#235423</referencedeproduit>
+        <intitule>Brown</intitule>
+        <quantite>56</quantite>
+        <prixunitaire>193$</prixunitaire>
+   </lignesdecommandes>
+
+</Bondecommande>
